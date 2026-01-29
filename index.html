@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio dev web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="navbar__logo"><span class="navbar__logo-text">AB</span></a>
+            <ul class="navbar__list">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__link">Accueil</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__link">A propos</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#projects" class="navbar__link">Projets</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#contact" class="navbar__link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="home">
+            <div class="home__content">
+                <p class="home__description">👋 Bienvenue les zgeg</p>
+                <h1 class="home__title">Alex Berrel</h1>
+                <h2 class="home__subtitle">Développeur web</h2>
+                <p class="home__description">Je fais des sites web pour des entreprises</p>
+            
+                <div class="home__btn">
+                    <a href="#projets" class="btn btn__primary"><span>Voir mes projets </span><i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#contact" class="btn btn__secondary"><span>Contactez-moi</span><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <span class="section-header__tag">Portfolio</span>
+            <h2 class="section-header__title">Projets <span>Phares</span></h2>
+            <p class="section-header__description">Voici quelques projets que j'ai réalisé.</p>
+            <div class="projects__container">
+                <!-- Project 1 -->
+                <div class="project__card">
+                    <div class="project__img-wrapper">
+                        <img src="images/image1.jpg" alt="Project 1">
+                        <div class="project__img-overlay">
+                            <div class="project__links">
+                                <a href="#" class="project__link" title="Voir le projet"><i class="fa-solid fa-eye"></i></a>
+                                <a href="#" class="project__link" title="Voir le code"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__content">
+                        <div class="project__tags">
+                            <span class="project__tag">HTML</span>
+                            <span class="project__tag">CSS</span>
+                            <span class="project__tag">JavaScript</span>
+                        </div>
+                        <h3 class="project__title">Site E-commerce</h3>
+                        <p class="project__description">Un site de vente en ligne avec panier et paiement intégrés.</p>
+                    </div>
+                    
+                </div>
+                <!-- Project 2 -->
+                <div class="project__card">
+                    <div class="project__img-wrapper">
+                        <img class="project__img"src="images/image2.jpg" alt="Project 2">
+                        <div class="project__img-overlay">
+                            <div class="project__links">
+                                <a href="#" class="project__link" title="Voir le projet"><i class="fa-solid fa-eye"></i></a>
+                                <a href="#" class="project__link" title="Voir le code"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__content">
+                        <div class="project__tags">
+                            <span class="project__tag">HTML</span>
+                            <span class="project__tag">CSS</span>
+                            <span class="project__tag">JavaScript</span>
+                        </div>
+                        <h3 class="project__title">Blog Personnel</h3>
+                        <p class="project__description">Un blog pour partager des articles et des idées.</p>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project__card">
+                    <div class="project__img-wrapper">
+                        <img class="project__img" src="images/image3.jpg" alt="Project 3">
+                        <div class="project__img-overlay">
+                            <div class="project__links">
+                                <a href="#" class="project__link" title="Voir le projet"><i class="fa-solid fa-eye"></i></a>
+                                <a href="#" class="project__link" title="Voir le code"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__content">
+                        <div class="project__tags">
+                            <span class="project__tag">HTML</span>
+                            <span class="project__tag">CSS</span>
+                            <span class="project__tag">JavaScript</span>
+                        </div>
+                        <h3 class="project__title">Portfolio Artistique</h3>
+                        <p class="project__description">Un portfolio pour présenter des œuvres d'art et des projets créatifs.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/piqzaa" target="_blank" class="project__btn"><span>Voir tous mes projets</span><i class="fa-brands fa-github"></i></a>
+        </section>
+</body>
+</html>

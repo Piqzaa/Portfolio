@@ -1,0 +1,51 @@
+@import "variables";
+@import "mixins";
+@import "components";
+@import "navbar";
+@import "hero";
+@import "projects";
+
+// RESET GLOBAL //
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
+  font-size: $spacing-sm;
+  background: $dark-card;
+  min-height: 200vh;
+}
+
+// SELECTION //
+
+::selection {
+  background-color: $primary-color;
+  color: $text-primary;
+}
+
+// SCROLLBAR STYLES //
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: $dark-card;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $gradient-1;
+  border-radius: $radius-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $gradient-2;
+}

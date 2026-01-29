@@ -1,0 +1,30 @@
+.section-header__tag {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: $primary-color;
+  font-weight: 600;
+  padding: $spacing-xs $spacing-sm;
+  border-radius: $radius-full;
+  border: 1px solid transparentize($primary-color, 0.7);
+  background: rgba(102, 126, 234, 0.1);
+  margin-bottom: $spacing-sm;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.section-header__title {
+  color: $text-primary;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: $spacing-lg;
+  font-weight: 700;
+  margin-bottom: $spacing-xs;
+  & span {
+    @include gradient-text($gradient-2);
+  }
+}
+
+.section-header__description {
+  color: $text-secondary;
+  font-size: 1.1rem;
+  margin-bottom: $spacing-lg;
+}

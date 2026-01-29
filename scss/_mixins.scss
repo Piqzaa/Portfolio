@@ -1,0 +1,9 @@
+@mixin gradient-text($gradient) {
+  background: $gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin transition($property: all, $speed: $transition-normal) {
+  transition: #{$property} #{$speed};
+}
